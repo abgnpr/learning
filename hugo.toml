@@ -1,0 +1,48 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Learning'
+theme = 'hugo-PaperMod'
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  ShowBreadCrumbs = true
+  ShowShareButtons = false
+
+[params.homeInfoParams]
+  Title = "Tech Notes"
+  Content = "My collection of technical notes and learnings"
+
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]
+
+[markup.highlight]
+  codeFences = true
+  guessSyntax = true
+  lineNos = true
+
+[[menu.main]]
+  name = "Archives"
+  url = "/archives/"
+  weight = 5
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 10
+
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 15
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
