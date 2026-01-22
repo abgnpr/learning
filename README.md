@@ -140,6 +140,19 @@ hugo
 hugo --minify
 ```
 
+## Deployment
+
+The site automatically deploys to GitHub Pages when you push to `main`.
+
+### Setup (one-time)
+
+1. Go to your GitHub repo **Settings** → **Pages**
+2. Under **Build and deployment**, set Source to **GitHub Actions**
+
+### Manual deployment
+
+Push to `main` branch or manually trigger the workflow from the **Actions** tab.
+
 ## Resources
 
 - [Hugo Documentation](https://gohugo.io/documentation/)
