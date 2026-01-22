@@ -18,6 +18,9 @@ git submodule update --init --recursive
 # Start dev server (includes drafts)
 hugo server -D
 
+# Start server in production mode (excludes drafts)
+hugo server -e production
+
 # Build for production
 hugo
 ```
