@@ -30,6 +30,18 @@ theme = 'hugo-PaperMod'
   lineNos = true
 
 [[menu.main]]
+  identifier = "menu-databases"
+  name = "Databases"
+  url = "/posts/databases/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "menu-design-patterns"
+  name = "Design Patterns"
+  url = "/posts/design-patterns/"
+  weight = 2
+
+[[menu.main]]
   name = "Archives"
   url = "/archives/"
   weight = 5

@@ -1,6 +1,6 @@
 +++
 title = 'The Strategy Pattern'
-date = 2026-01-26T12:00:00+05:30
+date = 2026-01-26T00:00:00+05:30
 draft = false
 tags = ['design-patterns', 'oop', 'python', 'go', 'typescript']
 summary = 'Behavioral design pattern for selecting algorithms at runtime using composition over inheritance, with implementations in Python, Go, and TypeScript.'
